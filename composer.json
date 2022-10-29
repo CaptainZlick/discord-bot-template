@@ -1,0 +1,37 @@
+{
+    "name": "captainzlick/discord-bot-template",
+    "description": "Discord bot template",
+    "type": "project",
+    "keywords": [
+        "discord",
+        "bot",
+        "template",
+        "php"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/captainzlick/discord-bot-template",
+    "support": {
+        "issues": "https://github.com/captainzlick/discord-bot-template/issues",
+        "source": "https://github.com/captainzlick/discord-bot-template"
+    },
+    "authors": [
+        {
+            "name": "CaptainZlick",
+            "email": "captainzlick@gmail.com"
+        }
+    ],
+    "require": {
+        "team-reflex/discord-php": "^7.3",
+        "react/http": "^1.8",
+        "vlucas/phpdotenv": "^5.5",
+        "php": "^7.4",
+        "ext-json": "^7.4",
+        "ext-zlib": "^7.4",
+        "ext-mbstring": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+          "Commands\\":"Commands/"
+        }
+    }
+}
